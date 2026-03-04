@@ -25,7 +25,6 @@ export default function OneCare() {
           name="description"
           content="A 2-day design exercise to improve the quality of life for children with type-1 diabetes. The app helps patient monitor their glucose level, manage insulin injection alerts and track symptoms."
         />
-        <meta property="og:image" content="https://www.sj.land/og/index.png" />
       </Head>
 
       <script

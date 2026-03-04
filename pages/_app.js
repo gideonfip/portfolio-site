@@ -6,10 +6,25 @@ import { Toaster } from "react-hot-toast";
 import { Analytics } from "@vercel/analytics/react";
 
 function MyApp({ Component, pageProps }) {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://portfolio.fipcrypto.com";
+  const description =
+    "I'm a crypto-native Content Strategist with 4+ years in Web3. Learn more about me here";
+  const previewImage = `${siteUrl}/og/gideon-ng-1200x630.svg`;
+
   return (
     <>
       <Head>
         <title>Gideon Ng</title>
+        <meta property="og:title" content="Gideon Ng" />
+        <meta property="og:description" content={description} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={siteUrl} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Gideon Ng" />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={previewImage} />
         <link
           rel="icon"
           href="/favicon-light.svg"

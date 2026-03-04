@@ -114,8 +114,6 @@ export default function Home({ updatesList, writingList, projectsList, vibeList 
     <>
       <Head>
         <title>Gideon Ng</title>
-        <meta name="description" content={description} />
-        <meta property="og:image" content="https://www.sj.land/og/index.png" />
       </Head>{" "}
       <script
         async

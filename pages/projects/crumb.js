@@ -25,7 +25,6 @@ export default function Oriant() {
           name="description"
           content="I started working with Crumb to come up with a few website designs. I ended up implementing a different design for them."
         />
-        <meta property="og:image" content="https://www.sj.land/og/index.png" />
       </Head>
 
       <script

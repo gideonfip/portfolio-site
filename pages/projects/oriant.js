@@ -25,7 +25,6 @@ export default function Oriant() {
           name="description"
           content="A design exercise to encourage students exploring orientation events and manage their orientation schedules. It was a 5 day project that I covered from research to prototyping."
         />
-        <meta property="og:image" content="https://www.sj.land/og/index.png" />
       </Head>
 
       <script

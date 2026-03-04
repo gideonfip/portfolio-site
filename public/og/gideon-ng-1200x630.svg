@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c0d10"/>
+      <stop offset="1" stop-color="#151821"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text
+    x="110"
+    y="350"
+    fill="#ffffff"
+    font-family="'Brush Script MT', 'Segoe Script', 'Snell Roundhand', cursive"
+    font-size="168"
+    letter-spacing="0.5"
+  >
+    Gideon Ng
+  </text>
+  <path d="M636 333 C715 329, 779 321, 835 311" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.95"/>
+</svg>

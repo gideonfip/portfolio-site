@@ -19,7 +19,6 @@ export default function ProjectDetail({ project, blocks }) {
     <>
       <Head>
         <title>Gideon Ng</title>
-        <meta name="description" content={description} />
       </Head>
       <script
         async

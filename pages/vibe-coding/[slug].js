@@ -18,7 +18,6 @@ export default function VibeCodingDetail({ project, blocks }) {
     <>
       <Head>
         <title>Gideon Ng</title>
-        <meta name="description" content={description} />
       </Head>
       <main className={util.page}>
         <div className={util.pageColumn}>

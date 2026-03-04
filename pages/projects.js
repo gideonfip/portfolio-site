@@ -36,7 +36,6 @@ export default function Projects({ list }) {
     <>
       <Head>
         <title>Gideon Ng</title>
-        <meta name="description" content={description} />
       </Head>
 
       <script

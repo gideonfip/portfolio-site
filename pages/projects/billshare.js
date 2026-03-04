@@ -29,7 +29,6 @@ export default function Oriant() {
                 methods. It was a 4 day project that I carried out from research
                 to hi-fidelity UI design."
         />
-        <meta property="og:image" content="https://www.sj.land/og/index.png" />
       </Head>
 
       <script

@@ -8,8 +8,6 @@ export default function Custom404() {
     <>
       <Head>
         <title>Gideon Ng</title>
-        <meta name="description" content="Page missing" />
-        <meta property="og:image" content="https://www.sj.land/og/index.png" />
       </Head>
       <main className={util.page} id="recentsPage">
         <div className={util.center}>

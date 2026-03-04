@@ -36,8 +36,6 @@ export default function About({ list }) {
     <>
       <Head>
         <title>Gideon Ng</title>
-        <meta name="description" content={description} />
-        <meta property="og:image" content="https://www.sj.land/og/index.png" />
       </Head>
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2CWC86NTK"></script>
