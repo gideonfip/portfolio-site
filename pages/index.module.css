@@ -33,12 +33,12 @@
   }
 }
 .tinyText {
-  font-size: 12px;
-  color: var(--gray9);
+  font-size: 13px;
+  color: var(--gray12);
   font-weight: 380;
   letter-spacing: 0.15px;
   opacity: 0.9;
-  padding-bottom: 8rem;
+  padding-bottom: 5rem;
 }
 .mobileBio {
   display: none;
@@ -50,12 +50,12 @@
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
-  color: var(--gray10);
+  color: var(--gray11);
   font-size: 0.78rem;
   padding: 0.32rem 0.5rem;
-  border: 1px solid var(--gray5);
+  border: 1px solid var(--linkContainerBorderHover);
   border-radius: 999px;
-  background: var(--gray2);
+  background: transparent;
 }
 .mobileSectionTitleWithIcon {
   display: inline-flex;
@@ -71,11 +71,12 @@
   color: var(--gray11);
 }
 .introContainer {
+  height: auto !important;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px !important;
 }
 
 @media (max-width: 1380px) {
@@ -102,7 +103,7 @@
   .mobileBio {
     display: block;
     margin-top: 0.1rem;
-    color: var(--gray9);
+    color: var(--gray11);
     font-size: 0.95rem;
     line-height: 1.45;
     max-width: 40ch;
