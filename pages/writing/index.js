@@ -27,7 +27,7 @@ export default function Writing({ list }) {
   }, []);
 
   const description =
-    "The pieces I'm most proud of spanning @fipcrypto, @nuhgid, and Automata";
+    "The pieces I'm most proud of spanning @gideonfip, @nuhgid, and Automata";
   return (
     <>
       <Head>

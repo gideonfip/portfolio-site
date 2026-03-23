@@ -76,7 +76,7 @@ export default function ContactContent() {
         <div className={styles.flexRow}>
           <a
             className={styles.textButton}
-            href="https://x.com/fipcrypto"
+            href="https://x.com/gideonfip"
             target="_blank"
             rel="noopener noreferrer"
           >
