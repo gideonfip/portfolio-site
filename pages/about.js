@@ -78,7 +78,7 @@ export default function About({ list }) {
                 >
                   here
                 </a>
-                . I'm sharing whatever that I learnt while building with AI on my YouTube channel{" "}
+                . I&apos;m sharing whatever that I learnt while building with AI on my YouTube channel{" "}
                 <a
                   className={util.normalLink}
                   href="https://www.youtube.com/@gideonfipbuilds"
